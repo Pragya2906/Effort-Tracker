@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effort Tracker</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="min-h-screen bg-gray-200 dark:bg-black flex items-center justify-center">
+
+    <div class="w-full max-w-md bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200 rounded-lg shadow-md">
+
+        <header class="border-b border-gray-200 dark:border-gray-900">
+            <div class="flex items-center justify-between px-4 py-3">
+
+                <h1 class="text-lg font-semibold">
+                    Effort Tracker
+                </h1>
+
+                <button id="toggle-button"
+                    class="w-10 h-10 flex items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 transition">
+
+                    <!-- default sun icon -->
+                    <svg class="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+
+                </button>
+
+            </div>
+        </header>
+
+        <main class="px-4 py-6">
+            <div class="date-section px-4 pt-4 text-sm text-gray-600 dark:text-gray-400"></div>
+            <br>
+            <div class="task-input flex gap-2 mb-4">
+                <input type="text" id="task-input" placeholder="Add you task..."
+                    class=" flex-1 px-4 py-2 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-400 dark:text-black">
+
+                <button id="add-but"
+                    class="px-4 py-2 rounded-lg bg-green-500 text-black   hover:bg-green-600 transition">Add</button>
+            </div>
+            <div class="task-list">
+                <ul id="task-list"></ul>
+            </div>
+        </main>
+        <!-- 
+        <footer class="text-center text-sm text-gray-700 dark:text-gray-400 pb-4">
+            made by Pragya Lachhwani
+        </footer> -->
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
