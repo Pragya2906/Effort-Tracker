@@ -1,32 +1,26 @@
 # Effort Tracker
 
-A task management web application that helps users track the time spent on individual tasks using a real-time timer. This project focuses on improving productivity by allowing users to start, pause, and reset timers for tasks.
+Effort Tracker is a task management web application that allows users to track time spent on individual tasks using a real-time timer. Users can start, pause, and reset timers for each task independently.
 
 ## Features
 
-- Start timer for a task
-- Pause timer functionality
-- Reset timer functionality
+- Start, pause, and reset timer for tasks
 - Real-time timer updates
-- Track effort spent on individual tasks
-- Simple and clean user interface
+- Track effort spent per task
+- Dynamic UI updates without page reload
 
 ## Tech Stack
 
 - HTML5
-- CSS3
+- CSS3 / Tailwind CSS
 - JavaScript (Vanilla JavaScript)
-- DOM Manipulation
-- Event Handling
 
-## How it Works
+## Concepts Practiced
 
-The application uses JavaScript to manage timer state and update the UI dynamically. It handles:
-
-- Timer start and pause logic
-- State transitions
-- Real-time DOM updates
-- User interaction via event listeners
+- Timer logic using setInterval and clearInterval
+- State handling in JavaScript
+- Event-driven programming
+- Dynamic DOM manipulation
 
 
 
